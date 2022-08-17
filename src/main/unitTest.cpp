@@ -6,12 +6,12 @@
 
 double complexTest()
 {
-    Complex a, b(1, 2), c(3, 4);
+    Complex<double> a, b(1, 2), c(3, 4);
     a = b + c; // a = 4 6
     std::cout << a << std::endl;
     return a.getRE();
 }
 
 TEST_CASE("complexTest") {
-    REQUIRE(complexTest() == 5);
+    REQUIRE(complexTest() == 4);
 }
