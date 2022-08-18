@@ -2,7 +2,7 @@
 
 #include "catch.hpp"
 #include "pch.h"
-#include "Complex.h"
+#include "Complex.hpp"
 #include "traits.hpp"
 
 double complexTest()
